@@ -1,2 +1,488 @@
+@charset "UTF-8";
+/*-------------------------------------------------- Inicio: Parámetros Generales --------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0; }
+
 body {
+  background-color: #ffffff;
+  font-family: "Oswald", sans-serif; }
+
+.main {
+  background-image: url(../img/fondo-patron-helado-claro.jpg);
+  background-repeat: repeat; }
+
+/*-------------------------------------------------- Fin: Parámetros Generales --------------------------------------------------*/
+/*-------------------------------------------------- Inicio: Barra lateral --------------------------------------------------*/
+.grilla {
+  margin-top: 40px; }
+
+.card {
+  border: 1px solid #734c48; }
+
+#clima {
+  background-color: white;
+  padding: 20px 5px;
+  border: 1px solid #734c48; }
+
+.clima-helado img {
+  padding-top: 30px;
+  width: 100%; }
+
+.clima-helado p {
+  width: 100%;
+  font-weight: bolder;
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  background-color: #361f8a; }
+
+#carouselExampleSlidesOnly img {
+  height: 100px; }
+
+/*-------------------------------------------------- Inicio: Header --------------------------------------------------*/
+.header {
+  background-color: #ffffff;
+  height: 85px;
+  width: 100%;
+  z-index: 999999;
+  position: fixed; }
+
+.header__nav {
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  background-color: white; }
+
+.header__nav__a__img {
+  height: 75px;
+  margin: 10px 50px;
+  width: 158px; }
+
+.header__nav__ul {
+  display: flex;
+  flex-flow: row nowrap;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  list-style: none;
+  margin: 30px;
+  text-align: right;
+  text-transform: uppercase; }
+
+.header__nav__ul__li {
+  margin: auto 25px; }
+
+.header__nav__ul__li :hover {
+  color: #85c7c6; }
+
+.header__nav__ul__li__a {
+  color: #60342e;
+  text-decoration: none; }
+
+/*-------------------------------------------------- Fin: Header --------------------------------------------------*/
+/*-------------------------------------------------- Inicio: Footer --------------------------------------------------*/
+.footer {
+  background-color: #85c7c6;
+  height: 50px;
+  width: 100%; }
+
+.footer__article__p {
+  color: #60342e;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 35px;
+  text-align: center; }
+
+/*-------------------------------------------------- Fin: Footer --------------------------------------------------*/
+/*-------------------------------------------------- Inicio: Index --------------------------------------------------*/
+.main--index {
+  background-image: url(../img/fondo-patron-helado-claro.jpg);
+  background-repeat: repeat; }
+
+.main__section__article__iframe {
+  height: 480px;
+  width: 100%;
+  margin-top: -50px; }
+
+.main__section__article__h1 {
+  background-color: #f7ba15;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: bold;
+  height: 160px;
+  overflow: hidden;
+  padding-top: 45px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.main__section__article--lista {
+  padding: 1%; }
+
+.main__section__article__ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  margin: 10px 10%;
+  overflow: hidden;
+  padding: 0;
+  width: 80%; }
+
+.main__section__article__ul__li {
+  background-color: #f157b1;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px 0px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%; }
+
+#submenu {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.itemsubmenu {
+  background-image: url(../img/vector-helado.jpg);
+  background-position: 0 0;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  color: #60342e;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px 80px; }
+
+.main__section__article__ul__li :hover > #submenu {
+  display: block; }
+
+#menu :hover {
+  background-color: #ffffff;
+  color: #85c7c6; }
+
+#submenu :hover {
+  background-color: #ffffff; }
+
+.accordion {
+  font-size: 20px;
+  font-style: "Oswald", sans-serif;
+  z-index: 100; }
+
+.acordion .accordionExample .accordion-item .accordion-header .accordion-button {
+  font-size: 2rem !important;
+  font-style: "Oswald", sans-serif !important;
+  font-weight: bold; }
+
+/*-------------------------------------------------- Fin: Index --------------------------------------------------*/
+.imgMapaRuta {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.section-ruta {
+  margin: 0 20%; }
+
+.accordion-button {
+  font-size: 30px; }
+
+.accordion-body {
+  font-size: 20px; }
+
+.listaRuta {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.itemRuta {
+  background: url("../img/picker-blue.jpg") no-repeat left center;
+  height: 30px;
+  padding-left: 25px; }
+
+.historia__main__section__article__iframe {
+  height: 315px;
+  width: 100%; }
+
+.main--historia, .main--noticias {
+  background-color: white; }
+
+.seccion-Titulo-Historia, .seccion-Titulo-Invento {
+  background-color: #f157b1;
+  height: 160px;
+  margin: 10px 0; }
+
+.seccion-Titulo-Historia h2, .seccion-Titulo-Invento h2 {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  justify-content: center;
+  padding-top: 45px;
+  text-align: center;
+  text-justify: center;
+  text-transform: uppercase; }
+
+.seccion-Titulo-Invento {
   background-color: #85c8c7; }
+
+.seccion-Texto-Historia {
+  background-color: white;
+  height: 200px;
+  margin: 0; }
+
+.seccion-Texto-Historia p {
+  color: black;
+  font-size: 28px;
+  justify-content: center;
+  margin: 50px;
+  padding: 30px;
+  text-align: justify;
+  text-justify: center; }
+
+.seccion-Texto-Invento p {
+  color: black;
+  text-align: justify;
+  display: inline;
+  float: right;
+  font-size: 21px;
+  margin: 40px 60px;
+  margin-top: 25px;
+  width: 55%; }
+
+.seccion-Texto-Invento {
+  display: inline; }
+
+.seccion-Texto-Invento img {
+  display: inline-flex;
+  width: 35%;
+  height: 40%; }
+
+.seccion-Texto-ciudad p {
+  color: black;
+  text-align: justify;
+  display: inline;
+  float: left;
+  font-size: 21px;
+  margin: 40px 60px;
+  margin-top: 25px;
+  width: 55%; }
+
+.seccion-Texto-ciudad {
+  display: inline; }
+
+.seccion-Texto-ciudad img {
+  display: inline-flex;
+  width: 35%;
+  height: 40%; }
+
+.seccion-ciudad {
+  background-image: url(../img/image_1624565552.gif);
+  background-repeat: repeat;
+  background-position-x: center;
+  height: 100px;
+  padding-top: 20px;
+  width: 70%;
+  margin: 20px 15%; }
+
+.seccion-index-ruta {
+  background-image: url(../img/gif-largo-ruta.gif);
+  background-repeat: repeat;
+  background-position: center center;
+  height: 120px;
+  padding-top: 20px;
+  width: 70%;
+  margin: 20px 15%; }
+
+.seccion-index-noticias {
+  background-color: white;
+  height: 75px;
+  padding-top: 1px;
+  width: 90%; }
+
+.seccion-hola {
+  background-color: white;
+  padding-top: 1px;
+  margin: 30px -42px 30px; }
+
+.texto-hola-bb {
+  background-color: #734c48;
+  color: white;
+  font-size: 35px;
+  font-weight: bolder;
+  justify-content: center;
+  padding: auto;
+  text-align: center;
+  text-justify: center;
+  text-transform: uppercase; }
+
+.texto-hola-bb h5 {
+  color: black;
+  text-align: justify;
+  background-color: white;
+  font-size: 21px;
+  padding: 25px 50px;
+  width: 100%;
+  text-transform: none; }
+
+.seccion-cucurucho {
+  background-image: url(../img/cucuruchos.jpg);
+  height: 500px;
+  padding-top: 200px;
+  width: 100%;
+  margin: 40px 0; }
+
+.texto-curiosidad {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 45px;
+  font-style: italic;
+  font-weight: bolder;
+  justify-content: center;
+  padding: 0 20px;
+  text-align: center;
+  text-justify: center;
+  text-transform: uppercase; }
+
+.texto-curiosidad a {
+  font-size: 35px;
+  color: white;
+  text-decoration: none; }
+
+/*-------------------------------------------------- Inicio: Noticias --------------------------------------------------*/
+.seccion-Noticia-Bienvenida {
+  height: auto;
+  padding-top: 70px;
+  margin: 0 50px 0; }
+
+.seccion-hola-noticias {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 0;
+  width: 100%;
+  margin: 30px 0; }
+
+.texto-hola-noticias {
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
+  justify-content: center;
+  padding: 1px 0;
+  text-align: center;
+  text-justify: center;
+  text-transform: uppercase; }
+
+.texto-hola-noticias h5 {
+  color: black;
+  text-align: justify;
+  background-color: white;
+  font-size: 21px;
+  padding: 0 50px;
+  width: 100%;
+  text-transform: none; }
+
+.main__section__article__h2 {
+  color: black;
+  background-color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 0;
+  width: 100%;
+  text-transform: none; }
+
+.main__section__article__h3 {
+  color: black;
+  background-color: white;
+  font-size: 20px;
+  padding: 0;
+  width: 100%;
+  text-transform: none; }
+
+.seccion-Noticia {
+  margin: 40px 15% 0; }
+
+.seccion-Noticia img {
+  display: block;
+  width: 60%;
+  height: auto;
+  margin: 20px 20% 5px;
+  overflow: hidden; }
+
+.seccion-Noticia p {
+  text-align: justify;
+  padding: 5px 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%; }
+
+.seccion-Noticia p span {
+  display: block;
+  padding-top: 10px;
+  background-color: white;
+  color: black; }
+
+.texto-gif {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bolder;
+  justify-content: center;
+  padding: 10px 20px;
+  text-align: center;
+  text-justify: center;
+  text-transform: uppercase; }
+
+.ultimo {
+  padding-bottom: 10px; }
+
+/*-------------------------------------------------- Fin: Noticias --------------------------------------------------*/
+/*-------------------------------------------------- Inicio: Contacto --------------------------------------------------*/
+.main--contacto {
+  background-color: white;
+  width: 80%;
+  margin: 0 10%; }
+
+.seccion-Texto-Invento-contacto {
+  margin: 50px 0; }
+
+.seccion-Texto-Invento-contacto p, .seccion-Texto-ciudad-contacto p {
+  color: black;
+  text-align: justify;
+  display: inline;
+  float: right;
+  font-size: 20px;
+  margin: 20px 2% 0;
+  width: 60%; }
+
+.seccion-Texto-Invento-contacto img, .seccion-Texto-ciudad-contacto img {
+  display: inline-flex;
+  width: 35%; }
+
+.fab {
+  padding: 0 10px; }
+
+.contacto div div h4 {
+  padding-top: 10px; }
+
+.texto-curiosidad-contacto {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 35px;
+  font-weight: bolder;
+  justify-content: center;
+  padding: 10px 20px;
+  text-align: center;
+  text-justify: center;
+  text-transform: uppercase; }
+
+.btn-primary {
+  color: black;
+  background-color: pink;
+  border-color: pink; }
+
+.btn-primary:hover {
+  background-color: white;
+  color: black;
+  border-color: pink; }
+
+/*-------------------------------------------------- Fin: Contacto --------------------------------------------------*/
