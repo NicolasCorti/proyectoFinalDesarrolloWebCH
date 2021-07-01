@@ -459,7 +459,8 @@ body {
   width: 35%; }
 
 .fab {
-  padding: 0 10px; }
+  padding: 0 10px;
+  color: black; }
 
 .contacto div div h4 {
   padding-top: 10px; }
