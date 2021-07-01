@@ -13,8 +13,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <!-------------------------------------------------- GoogleFonts - Oswald -------------------------------------------------->
+    <!-------------------------------------------------- Fontawesome - Iconos -------------------------------------------------->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <!-------------------------------------------------- Fontawesome - Iconos -------------------------------------------------->
     <!-------------------------------------------------- CSS -------------------------------------------------->
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <!-------------------------------------------------- CSS -------------------------------------------------->
 </head>
 <body>
@@ -23,15 +26,15 @@
         <!-------------------------------------------------- Navegador -------------------------------------------------->
         <nav class="header__nav">
             <!-------------------------------------------------- Logo -------------------------------------------------->
-            <a class="header__nav__a" href="index.html"><img class="header__nav__a__img" src="img/logoRHA.png" alt="Logo de La ruta del helado"></a>
+            <a class="header__nav__a" href="./index.html"><img class="header__nav__a__img" src="./img/logo-RH.jpg" alt="Logo de La ruta del helado"></a>
             <!-------------------------------------------------- Logo -------------------------------------------------->
             <!-------------------------------------------------- Menú -------------------------------------------------->
             <ul class="header__nav__ul">
-                <li class="header__nav__ul__li"><a class="header__nav__ul__li__a" href="index.html">Inicio</a></li>
-                <li class="header__nav__ul__li"><a class="header__nav__ul__li__a" href="ruta.html">La Ruta</a></li>
-                <li class="header__nav__ul__li"><a class="header__nav__ul__li__a" href="historia.html">Historia</a></li>
-                <li class="header__nav__ul__li"><a class="header__nav__ul__li__a" href="noticias.html">Noticias</a></li>
-                <li class="header__nav__ul__li"><a class="header__nav__ul__li__a" href="contacto.html">Contacto</a></li>
+                <li class="header__nav__ul__li"><a class="header__nav__ul__li__a" href="./index.html">Inicio</a></li>
+                <li class="header__nav__ul__li"><a class="header__nav__ul__li__a" href="./ruta.html">La Ruta</a></li>
+                <li class="header__nav__ul__li"><a class="header__nav__ul__li__a" href="./historia.html">Historia</a></li>
+                <li class="header__nav__ul__li"><a class="header__nav__ul__li__a" href="./noticias.html">Noticias</a></li>
+                <li class="header__nav__ul__li"><a class="header__nav__ul__li__a" href="./contacto.html">Contacto</a></li>
             </ul>
             <!-------------------------------------------------- Menú -------------------------------------------------->
         </nav>
@@ -39,90 +42,100 @@
     </header>
     <!-------------------------------------------------- Header -------------------------------------------------->
     <!-------------------------------------------------- Main -------------------------------------------------->
-    <main class="main--contacto">
-        <section>
-            <article class="seccion-Noticia-Bienvenida">
+    <main class="main">
+        <!-------------------------------------------------- Título -------------------------------------------------->
+        <section class="main__section--quienes-somos">
+            <h1 class="main__section__h1--quienes-somos">Quienes somos</h1>
+        </section>
+        <!-------------------------------------------------- Título -------------------------------------------------->
+        <!-------------------------------------------------- Info -------------------------------------------------->
+        <section class="main__section--info-sobre-quienes-somos">
+            <h2 class="main__section__h2--info-sobre-quienes-somos">¿Qué es "La Ruta del Helado"?</h2>
+            <article class="main__section__article--info-sobre-quienes-somos">
+                <img class="main__section__article__img--info-sobre-quienes-somos" src="./img/que-es-RH.jpg" alt="Descripicón de La Ruta del Helado">
+                <p class="main__section__article__p--info-sobre-quienes-somos">
+                    <span class="main__section__article__p__span--info-sobre-quienes-somos">La Ruta del Helado es un circuito que incluye a todas las heladerías. Propone dar a conocer la variedad de propuestas de este producto, asociadas a sus historias, sus protagonistas, sus características particulares, sus especialidades destacadas. Poniendo en valor lo artesanal del proceso y la diferenciación del producto.</span>
+                    <span class="main__section__article__p__span--info-sobre-quienes-somos">Este recorrido se llevará adelante a través de una plataforma digital que muestra la distribución de la oferta en un mapa y geo-referencia a todos los locales participantes.</span>
+                    <span class="main__section__article__p__span--info-sobre-quienes-somos">La iniciativa se enmarca en el nuevo escenario gastronómico con consumos que priorizan la calidad en la elaboración y la historia detrás de cada producto, donde lo natural, lo propio y los detalles se posicionan por encima de todo. Además, apuntamos a fortalecer al helado artesanal como postre, como producto de consumo de disfrute, con las mejores propuestas para todo el año.</span>
+                </p>
+            </article>
+            <h2 class="main__section__h2--info-sobre-quienes-somos">¿Qué es el Helado Artesanal?</h2>
+            <article class="main__section__article--info-sobre-quienes-somos">
+                <img class="main__section__article__img--info-sobre-quienes-somos" src="./img/que-es-el-helado-artesanal.png" alt="Heladera con distintos sabores de helados artesanales">
+                <p class="main__section__article__p--info-sobre-quienes-somos">
+                    <span class="main__section__article__p__span--info-sobre-quienes-somos">El helado artesanal es un producto elaborado por un maestro heladero como artesano con sus propias manos y poca o nula intervención de máquinas para la preparación, buscando la excelencia como máxima.</span>
+                    <span class="main__section__article__p__span--info-sobre-quienes-somos">El producto se elabora y vende en lotes pequeños, seleccionando las materias primas que enriquecen los sabores y hacer intensas las fragancias. Tanto las heladerías artesanales como los maestros heladeros conservan ese espíritu de las antiguas recetas artesanales. Recetas únicas con la aplicación de productos y procesos innovadores.</span>
+                    <span class="main__section__article__p__span--info-sobre-quienes-somos">El helado artesanal se prepara bajo la supervisión de un maestro heladero encargado de lograr el producto perfecto, sin conservantes, automáticamente neutros y con 0% Grasas Trans, a diferencia del resto de productos similares en el mercado.</span>
+                </p>
+            </article>
+        </section>
+        <!-------------------------------------------------- Info -------------------------------------------------->
+        <!-------------------------------------------------- Subtítulo -------------------------------------------------->
+        <section class="main__section--medios-de-contacto">
+            <h2 class="main__section__h2--medios-de-contacto">Medios de contacto</h2>
+        </section>
+        <!-------------------------------------------------- Subtítulo -------------------------------------------------->
+        <!-------------------------------------------------- Contacto -------------------------------------------------->
+        <section class="main__section--datos-de-contacto">
+            <article class="main__section__article--datos-de-contacto">
+                <h4 class="main__section__article__h4--datos-de-contacto">Consultas e Información</h4>
+                <h5 class="main__section__article__h5--datos-de-contacto">informacion@rutadelhelado.com</h5>
+                <h5 class="main__section__article__h5--datos-de-contacto">(11) 4304-2642 / 0415</h5>
+                <h4 class="main__section__article__h4--datos-de-contacto">Prensa</h4>
+                <h5 class="main__section__article__h5--datos-de-contacto">prensa@rutadelhelado.com</h5>
+                <h4 class="main__section__article__h4--datos-de-contacto">Whatsapp:</h4>
+                <h5 class="main__section__article__h5--datos-de-contacto">+54 9 11 5595 2790</h5>                            
+                <a class="main__section__article__a--datos-de-contacto" href="https://www.facebook.com/" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a class="main__section__article__a--datos-de-contacto" href="https://www.facebook.com/" target="_blank">
+                    <i class="fab fa-facebook-messenger"></i>
+                </a>
+                <a class="main__section__article__a--datos-de-contacto" href="https://www.instagram.com/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a class="main__section__article__a--datos-de-contacto" href="https://ar.pinterest.com/" target="_blank">
+                    <i class="fab fa-pinterest"></i>
+                </a>
+                <a class="main__section__article__a--datos-de-contacto" href="https://twitter.com/" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a class="main__section__article__a--datos-de-contacto" href="https://www.whatsapp.com/" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </article>
+            <article id="formulario-de-contacto" class="main__section__article--formulario-de-contacto">
+                <!-------------------------------------------------- Boostrap - Responsive -------------------------------------------------->
                 <div class="row">
-                    <div class="col">
-                        <section class="seccion-hola-noticias">
-                            <article class="texto-hola-noticias">
-                                <p>
-                                    Quienes somos
-                                </p>  
-                                <h5>
-                                    Tambien podes suscribirte a nuestro newsletter para enterarte sobre eventos de helados.
-                                    <a href="contacto.html#formulario-contacto"><button type="button" class="btn btn-primary btn-sm">Suscribite</button></a>
-                                </h5>
-                            </article>
-                        </section> 
+                    <!-------------------------------------------------- Boostrap - Responsive -------------------------------------------------->
+                    <!-------------------------------------------------- Boostrap - Formulario -------------------------------------------------->
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@dominio.com">
                     </div>
-                </div>                
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">Deseo recibir el newsletter.</label>
+                    </div>
+                    <a href="fuerzo404">
+                        <button type="button" class="btn btn-success">Enviar</button>
+                    </a>    
+                    <!-------------------------------------------------- Boostrap - Formulario -------------------------------------------------->
+                    <!-------------------------------------------------- Boostrap - Responsive -------------------------------------------------->
+                </div>
+                <!-------------------------------------------------- Boostrap - Responsive -------------------------------------------------->
             </article>
         </section>
-        <section class="section-contato">
-            <article class="seccion-Texto-ciudad-contacto">
-                <h2 class="texto-curiosidad-contacto">¿Qué es "La Ruta del Helado"?</h2>
-                <p>
-                    <span>La Ruta del Helado es un circuito que incluye a todas las heladerías. Propone dar a conocer la variedad de propuestas de este producto, asociadas a sus historias, sus protagonistas, sus características particulares, sus especialidades destacadas. Poniendo en valor lo artesanal del proceso y la diferenciación del producto.</span>
-                    <span>Este recorrido se llevará adelante a través de una plataforma digital que muestra la distribución de la oferta en un mapa y geo-referencia a todos los locales participantes.</span>
-                    <span>La iniciativa se enmarca en el nuevo escenario gastronómico con consumos que priorizan la calidad en la elaboración y la historia detrás de cada producto, donde lo natural, lo propio y los detalles se posicionan por encima de todo. Además, apuntamos a fortalecer al helado artesanal como postre, como producto de consumo de disfrute, con las mejores propuestas para todo el año.</span>
-                </p>
-                <img class="imagen-contacto" src="img/queEsRHA.jpg" alt="">
-            </article>
-            <article class="seccion-Texto-Invento-contacto">
-                <h2 class="texto-curiosidad-contacto">¿Qué es el Helado Artesanal?</h2>
-                <p>
-                    <span>El helado artesanal es un producto elaborado por un maestro heladero como artesano con sus propias manos y poca o nula intervención de máquinas para la preparación, buscando la excelencia como máxima.</span>
-                    <span>El producto se elabora y vende en lotes pequeños, seleccionando las materias primas que enriquecen los sabores y hacer intensas las fragancias. Tanto las heladerías artesanales como los maestros heladeros conservan ese espíritu de las antiguas recetas artesanales. Recetas únicas con la aplicación de productos y procesos innovadores.</span>
-                    <span>El helado artesanal se prepara bajo la supervisión de un maestro heladero encargado de lograr el producto perfecto, sin conservantes, automáticamente neutros y con 0% Grasas Trans, a diferencia del resto de productos similares en el mercado.</span>
-                </p>
-                <img class="imagen-contacto" src="img/queeselheladoartesanal.png" alt="">
-            </article>
-        </section>
-        <section class="contacto">
-            <h1 class="texto-curiosidad-contacto">Medios de contacto</h1>
-            <div class="row">
-                    <div class="col col-6">
-                        <h4>Consultas e Información</h4>
-                        <h5>informacion@rutadelhelado.com</h5>
-                        <h5>(11) 4304-2642 / 0415</h5>
-                        <h4>Prensa</h4>
-                        <h5>prensa@rutadelhelado.com</h5>
-                        <h4>Whatsapp:</h4>
-                        <h5>+54 9 11 5595 2790</h5>                            
-                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
-                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                        <a href="https://ar.pinterest.com/" target="_blank"><i class="fab fa-pinterest"></i></a>
-                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-                    </div>
-                    <div id="formulario-contacto" class="col col-6">
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@dominio.com">
-                          </div>
-                          <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                            <label class="form-check-label" for="flexCheckChecked">
-                              Deseo recibir el newsletter.
-                            </label>
-                          </div>
-                          <button type="button" class="btn btn-success">Enviar</button>
-                    </div>
-            </div>
-        </section>
+        <!-------------------------------------------------- Contacto -------------------------------------------------->
     </main>
     <!-------------------------------------------------- Main -------------------------------------------------->
     <!-------------------------------------------------- Footer -------------------------------------------------->
     <footer class="footer">
-        <article class="footer__article">
-            <p class="footer__article__p">© Sitio diseñado por Nicolás Corti  - Todos los derechos reservados - La ruta del Helado® - 2021</p>
-        </article>
+        <h6 class="footer__h6">2021 - La ruta del Helado® - Todos los derechos reservados© - Sitio desarrollado por Nicolás Corti</h6>
     </footer>
     <!-------------------------------------------------- Footer -------------------------------------------------->
     <!-------------------------------------------------- Boostrap - Popper/JS -------------------------------------------------->
